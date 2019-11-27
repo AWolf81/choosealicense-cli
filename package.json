@@ -1,0 +1,46 @@
+{
+  "name": "choosealicense-cli",
+  "version": "1.0.0",
+  "main": "./src/main.js",
+  "license": "MIT",
+  "bin": {
+    "choosealicense": "./bin/choosealicense.js"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development babel-node ./src/main.js",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@babel/cli": "7.7.4",
+    "@babel/core": "7.7.4",
+    "@babel/polyfill": "7.7.0",
+    "@babel/preset-env": "7.7.4",
+    "await-to-js": "2.1.1",
+    "cli-table": "0.3.1",
+    "colors": "1.4.0",
+    "commander": "4.0.1",
+    "inquirer": "7.0.0",
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "@babel/node": "7.7.4",
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "10.0.3",
+    "cross-env": "6.0.3",
+    "eslint": "6.x",
+    "eslint-config-react-app": "5.0.2",
+    "eslint-plugin-flowtype": "3.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.x",
+    "husky": "3.1.0",
+    "nodemon": "2.0.1",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "rollup": "1.27.5",
+    "rollup-plugin-add-shebang": "0.3.1",
+    "rollup-plugin-babel": "4.3.3"
+  }
+}

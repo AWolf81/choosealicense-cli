@@ -1,0 +1,7 @@
+node_modules
+
+# ignore any test generated licenses
+LICENSE.test
+
+# test package.json file
+package.test.json
