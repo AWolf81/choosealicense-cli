@@ -13,7 +13,7 @@ or install it globally with
 `npm i -g choosealicense-cli` or `yarn add global choosealicense-cli`
 
 Once installed globally you can use it with:
-`choosealicense-cli add MIT` or `choosealicense-cli`
+`choosealicense add MIT` or `choosealicense`
 
 ## Why was it created?
 I created it as learning experience and because I haven't found a tool that was working for me.
